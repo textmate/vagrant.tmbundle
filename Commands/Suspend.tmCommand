@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoScrollOutput</key>
+	<true/>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -wKU
+require "#{ENV["TM_SUPPORT_PATH"]}/lib/tm/executor"
+require "shellwords"
+
+environmentName = File.basename(ENV['TM_PROJECT_DIRECTORY'] || "/default")
+TextMate::Executor.run(ENV['TM_VAGRANT'].shellsplit, "suspend", :verb =&gt; "Suspending Vagrant Environment", :noun =&gt; environmentName, :use_hashbang =&gt; false, :version_args =&gt; '--version')
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^A</string>
+	<key>name</key>
+	<string>Suspend</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
+	<key>outputReuse</key>
+	<string>reuseBusy</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>vagrant</string>
+			<key>variable</key>
+			<string>TM_VAGRANT</string>
+		</dict>
+	</array>
+	<key>scope</key>
+	<string>attr.project.vagrant</string>
+	<key>uuid</key>
+	<string>B2A3F86E-8AA4-4ECC-A8E2-9D5F8A912EE7</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

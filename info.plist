@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>gz-ohaqyrf@znpebzngrf.pbz</string>
+	<key>contactName</key>
+	<string>Allan Odgaard</string>
+	<key>description</key>
+	<string>Control a vagrant environment</string>
+	<key>name</key>
+	<string>Vagrant</string>
+	<key>uuid</key>
+	<string>62385B90-7E47-4D43-B44D-63B0BC00FAD3</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>05B4972A-CA13-4305-B622-39B5EDE3FFD4</string>
+			<string>83A5F4AC-5627-483B-9AED-8B825CCA6707</string>
+			<string>------------------------------------</string>
+			<string>B2A3F86E-8AA4-4ECC-A8E2-9D5F8A912EE7</string>
+			<string>B93826B0-DB98-4BFC-9695-21B40E4FF178</string>
+			<string>------------------------------------</string>
+			<string>EFE9F59D-1063-496C-86E2-33D84B1AE3DF</string>
+		</array>
+	</dict>
+</dict>
+</plist>
