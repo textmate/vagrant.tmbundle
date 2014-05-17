@@ -35,8 +35,6 @@ TextMate::Executor.run(ENV['TM_VAGRANT'].shellsplit, "status", :verb =&gt; "Stat
 			<string>TM_VAGRANT</string>
 		</dict>
 	</array>
-	<key>scope</key>
-	<string>attr.project.vagrant</string>
 	<key>uuid</key>
 	<string>EFE9F59D-1063-496C-86E2-33D84B1AE3DF</string>
 	<key>version</key>

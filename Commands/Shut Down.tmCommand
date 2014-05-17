@@ -35,8 +35,6 @@ TextMate::Executor.run(ENV['TM_VAGRANT'].shellsplit, "halt", :verb =&gt; "Shutti
 			<string>TM_VAGRANT</string>
 		</dict>
 	</array>
-	<key>scope</key>
-	<string>attr.project.vagrant</string>
 	<key>uuid</key>
 	<string>83A5F4AC-5627-483B-9AED-8B825CCA6707</string>
 	<key>version</key>
